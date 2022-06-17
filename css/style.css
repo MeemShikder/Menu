@@ -31,6 +31,7 @@
 }
 .main nav ul a li{
 	color:  #EFEFEF;
+	text-transform: uppercase;
 }
 .main nav ul a li:hover{
 	background: #EFEFEF;

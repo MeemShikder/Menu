@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Feedback Form</title>
+	<style type="text/css">
+		*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-image: url('img/r.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    width:  70%;
+    /*height:  60vh;*/
+    background-color: #212121;
+    opacity: .75; 
+    padding: 4em 2em;
+    /*margin: auto;   */
+}
+h1{
+    color:  #EFEFEF;
+    font-family: tahoma;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+}
+.form-top{
+    width:  100%;
+    display: flex;
+
+
+
+}
+.form-top input{
+    width: 40%;
+    height: 100%;
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    background: transparent;
+    color: #efefef;
+
+}
+ textarea{
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-sizing:border-box;
+    border: 1px slid white;
+    background: transparent;
+    color: #efefef;
+}
+input[type='submit'] {
+ padding: 20px;
+ margin-top: 40px;
+ background: transparent;
+ border: 1px solid white;
+ color: white;
+}
+
+	</style>
+</head>
+<body>
+<div class="main">
+	<div class="center">
+		<div class="form">
+			<form>
+				<h1>Send Your Valuable Feedback</h1>
+				<div class="form-top">
+					<input type="text" class="name" name="" placeholder="Your Name">
+					<input type="email" name="" placeholder="Your email">
+					<input type="number" name="" placeholder="Your mobile No">					
+				</div>				
+				<textarea placeholder="Enter Your Msg"></textarea>
+				<p style="display: flex; justify-content: center;">
+					<input type="submit" value="Send Now" class="send-btn">
+				</p>
+				
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
