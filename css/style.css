@@ -1,0 +1,83 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*.main{
+	background: skyblue;
+	width: 100%;
+	padding: 1em;
+}*/
+
+.main nav{
+	width: 100%;
+	background:gray;
+	opacity: 0.75;
+	margin:  auto;
+	padding: 1em 0em;
+
+}
+.main nav ul{
+	list-style: none;
+}
+.main nav ul li{
+	display: inline;
+	padding: 1em 1em 0.6em 1em;
+	cursor: pointer;
+	margin-left: 90px;
+	font-size: 30px;
+}
+.main nav ul a{
+	text-decoration: none;
+}
+.main nav ul a li{
+	color:  #EFEFEF;
+}
+.main nav ul a li:hover{
+	background: #EFEFEF;
+	color:  #212121;
+
+}
+
+.body{
+	height: 90vh;
+	width: 100%;
+	border: 1px solid black;
+
+
+	background-image: url('./../img/laptop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.body h1{
+	color: white;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    font-size: 50px;
+
+}
+.body a{
+	text-decoration: none;
+	color: gray;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+body a button{
+	height: 50px;
+	width: 150px;
+	font-size: 20px;
+	border: 1px solid floralwhite;
+}
+
+body a button:hover{
+	background: gray;
+
+
+}
